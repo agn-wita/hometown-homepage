@@ -1,14 +1,15 @@
 body {
     margin: 0;
-    max-width: 600px;
+    /* max-width: 600px; */
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
-.section {
-    width: 90%;
+.content {
+    margin: 0 auto;
+    background: red;
 }
 
 h1,
@@ -20,6 +21,7 @@ h3 {
 
 h1 {
     font-size: 2.5rem;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -30,6 +32,48 @@ h3 {
     font-size: 1.5rem;
 }
 
-img {
-    width: 100%;
+#img-col {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.intro {
+    background-image: url("../img/town.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0 20px;
+    background-color: grey;
+    background-blend-mode: multiply;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #eae0d5;
+}
+
+.content {
+    padding: 0 20px;
+}
+
+#subtitle-columns {
+    margin-top: 1em;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ian {
+    width: 50%;
+    background: greenyellow;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-bottom: solid red 4px;
+}
+
+#ian {
+    width: 40%;
 }
