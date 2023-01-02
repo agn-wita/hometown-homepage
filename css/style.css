@@ -1,15 +1,19 @@
 body {
     margin: 0;
-    /* max-width: 600px; */
+    min-width: 400px;
+    max-width: 600px;
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content {
     margin: 0 auto;
-    background: red;
+    background: #b7e4c7;
+    padding: 20px;
 }
 
 h1,
@@ -29,7 +33,11 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 #img-col {
@@ -48,11 +56,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #eae0d5;
-}
-
-.content {
-    padding: 0 20px;
+    color: #f2cc8f;
 }
 
 #subtitle-columns {
@@ -65,15 +69,24 @@ h3 {
     justify-content: space-between;
 }
 
+.column-1-2 {
+    margin-left: 5px;
+}
+
 .ian {
     width: 50%;
-    background: greenyellow;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 270px;
+    background: #e07a5f;
+    margin: 30px auto;
     padding: 20px;
-    border-bottom: solid red 4px;
+    border-bottom: solid #b7e4c7 8px;
 }
 
 #ian {
-    width: 40%;
+    width: 30%;
+    min-width: 150px;
+}
+
+.ian-txt {
+    margin-left: 10px;
 }
