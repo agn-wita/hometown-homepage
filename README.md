@@ -1,8 +1,8 @@
 # hometown-homepage
 
-The project contain simple Ian's hometown presentation
+The project contains simple hometown presentation
 
-## I've learned:
+## HTML/CSS
 - background image
 - background blending mode
 - display flex
@@ -10,3 +10,6 @@ The project contain simple Ian's hometown presentation
 - justify content
 - flex-direction
 - classes and IDs
+
+## Stage of the project: completed
+Please note that this project is based on tutorial but the code was not copied. Every line of code was written by me according to my invention and with deep understanding of the issues.
